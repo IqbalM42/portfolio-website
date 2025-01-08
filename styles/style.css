@@ -128,3 +128,35 @@ nav span{
     color: #474747;
 }
 /* ----- about section end  ------ */
+/* ----- skill section start  ------ */
+.skill_section{
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.skill_information{
+    text-align: center;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.skill_box{
+    margin-top: 50px;
+    padding: 12px 10px;
+    text-align: left;
+    box-shadow: 5px 10px 8px #dfd1d1;
+}
+.skill_box img{}
+.skill_box h4{
+    margin: 15px 0px;
+    font-size: 20px;
+    font-weight: bole;
+    color: #181818;
+}
+.skill_box p{
+    font-size: 16px;
+    color: #757575;
+}
+/* ----- skill section end  ------ */
