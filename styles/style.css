@@ -26,6 +26,17 @@ body{
     color: #474747;
     line-height: auto;
 }
+.section_title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 24px;
+}
+.section_description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
 /* ----- header section start ----- */
 header{
     background-color: #FFF8F3;
@@ -87,3 +98,33 @@ nav span{
 }
 /* ----- end banner header  ------ */
 /* ----- header section end  ------ */
+/* ----- about section start  ------ */
+.about_section{
+    width: 75%;
+    margin: 100px auto;
+    background-color: #FFF8F3;
+}
+.about_box{
+    padding: 80px 150px;
+
+}
+.about_text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about_contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.about_contact p{
+    font-size: 20px;
+    color: #757575;
+}
+.about_contact h5{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+/* ----- about section end  ------ */
