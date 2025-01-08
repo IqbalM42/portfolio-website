@@ -1,13 +1,89 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: "Open Sans", serif;
+    max-width: 1600px;
 }
-
-
+.btn_primary{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    color: #fff;
+}
+.btn_phone{
+    border: 1px solid #FD6E0A;
+    border-radius: 6px;
+    padding: 10px 15px;
+    color: #FD6E0A
+}
+.sub_heading{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    line-height: auto;
+}
+/* ----- header section start ----- */
+header{
+    background-color: #FFF8F3;
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: left center, bottom right;
+    /* background-size: cover; */
+}
+/* ---- start navigation bar ------ */
 nav{
     display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    
 }
 nav span{
-    color: red;
+    color: #FD6E0A;
 }
+.logo{
+    margin-left: 180px;
+}
+.nav_meno{
+    margin-right: 150px;
+}
+.nav_meno ul{
+    display: flex;
+    gap: 50px;
+    
+}
+.nav_meno ul li{
+    list-style: none;
+}
+/* ----- end navigation bar ------ */
+/* ----- start banner header  ------ */
+
+.header_banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 150px; */
+}
+.header_containt{
+    margin-left: 185px;
+}
+.header_title{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    padding-top: 50px;
+}
+.header_description{
+    font-size: 18px;
+    color: #757575;
+    padding: 30px 0px;
+}
+.header_img{
+    padding-top: 20px;
+    margin-right: 50px;
+}
+/* ----- end banner header  ------ */
+/* ----- header section end  ------ */
