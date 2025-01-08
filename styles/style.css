@@ -179,6 +179,9 @@ nav span{
     color: #474747;
     margin: 60px 0px 30px 0px;
 }
+.edu_description{
+    margin-top: 20px;
+}
 .edu_description h5{
     font-size: 25px;
     font-weight: bold;
@@ -194,6 +197,9 @@ nav span{
     font-size: 16px;
     color: #757575;
     margin: 20px 0px 30px 0px;
+}
+.exp_description{
+    margin-top: 20px;
 }
 .exp_description h5{
     font-size: 25px;
@@ -221,3 +227,39 @@ nav span{
     color: #fff;
 }
 /* ----- resume section end  ------ */
+/* ----- footer section start  ------ */
+footer{
+    background-color: #FFF8F3;
+}
+.footer_section{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.footer_contact{
+    padding: 100px 0px 100px 180px;
+    width: 50%;
+}
+.footer_massege{
+    padding: 100px 180px 100px 0px;
+}
+.footer_section h3{
+    text-align: left;
+}
+.footer_section p{
+    margin-bottom: 20px;
+}
+.footer_section a{
+    margin-left: 20px;
+}
+..footer_section a:first-child{
+    margin-left: 0px;
+}
+.footer_massege input[type="text"]{
+    padding: 10px 12px;
+}
+.footer_massege input[type="email"]{
+    padding: 10px 12px;
+}
+
+/* ----- footer section end  ------ */
